@@ -1,0 +1,14 @@
+{
+  "name": "alb-logs-to-cw-lambda",
+  "description": "AWS Lambda to get ALB log files from S3, Parse them and send to Cloudwatch",
+  "version": "1.0.0",
+  "dependencies": {
+    "@aws-sdk/client-s3": "3.30.0",
+    "byline": "4.2.1",
+    "get-stream": "^6.0.1",
+    "stream": "^0.0.2",
+    "zlib": "^1.0.5"
+  },
+  "author": "Public",
+  "license": "MIT"
+}
